@@ -12,4 +12,5 @@ description = "A simple implementation of egui for ggez"
 
 [dependencies]
 egui = "0.20.1"
-ggez = "0.8.1"
+ggez = { git = 'https://github.com/ggez/ggez.git', branch = "devel"  }
+
